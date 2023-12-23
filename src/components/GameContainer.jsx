@@ -69,7 +69,15 @@ const GameContainer = () => {
           <RevealButton onReveal={handleRevealAnswer} />
           <SkipButton onSkip={handleSkip} />
         </div>
-        {message && <p className="mt-4">{message}</p>}
+        {message && (
+          <p
+            className={`mt-4 text-center text-xl font-semibold ${
+              message.includes("Correct") ? "text-green-500" : "text-red-500"
+            }`}
+          >
+            {message}
+          </p>
+        )}
       </div>
       <footer className="sm:fixed sm:bottom-0 w-full p-6 bg-gray-800 flex flex-col items-center text-white">
         <p className="text-lg font-semibold mb-4">Be a part of our community</p>
