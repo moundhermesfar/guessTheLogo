@@ -66,7 +66,7 @@ const Logos = [
   {
     imageUrl:
       "https://upload.wikimedia.org/wikipedia/commons/e/e1/Oracle_Corporation_logo.svg",
-    answer: "orcale",
+    answer: "oracle",
   },
   {
     imageUrl: "https://1000logos.net/wp-content/uploads/2017/03/LINUX-LOGO.png",
