@@ -121,7 +121,6 @@ const GameContainer = () => {
             />
           </a>
         </div>
-        <p className="mt-4">Made by M. MOUNDHER</p>
       </footer>
     </>
   );
